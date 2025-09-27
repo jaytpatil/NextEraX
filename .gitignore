@@ -1,0 +1,65 @@
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ---- IDE / Editor settings ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.Python
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# ---- Logs ----
+*.log
+*.out
+*.err
+logs/
+*.gz
+
+# ---- Build / Dist ----
+dist/
+build/
+.cache/
+coverage/
+*.tgz
+
+# ---- Environment / Secrets ----
+.env
+.env.*
+*.key
+*.pem
+*.crt
+
+# ---- Misc ----
+*.tmp
+*.temp
+*.lock
+*.bak
+*.orig
+*.rej
